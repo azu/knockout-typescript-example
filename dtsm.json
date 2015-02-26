@@ -1,0 +1,18 @@
+{
+  "repos": [
+    {
+      "url": "https://github.com/borisyankov/DefinitelyTyped.git",
+      "ref": "master"
+    }
+  ],
+  "path": "typings",
+  "bundle": "typings/bundle.d.ts",
+  "dependencies": {
+    "knockout/knockout.d.ts": {
+      "ref": "a7a25e72d9d176ccdd6445417d3449ffff49111f"
+    },
+    "knockout.es5/knockout.es5.d.ts": {
+      "ref": "a7a25e72d9d176ccdd6445417d3449ffff49111f"
+    }
+  }
+}

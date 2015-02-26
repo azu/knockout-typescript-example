@@ -1,0 +1,32 @@
+{
+  "name": "knockout-typescript-example",
+  "description": "typescript",
+  "version": "1.0.0",
+  "homepage": "https://github.com/azu/knockout-typescript-example/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/knockout-typescript-example.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": " wzrd src/app.ts:bundle.js -- -p [ tsify --noImplicitAny ]",
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/knockout-typescript-example/issues"
+  },
+  "dependencies": {
+    "knockout": "^3.3.0",
+    "knockout-es5": "0.0.3"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "tsify": "^0.8.0",
+    "wzrd": "^1.2.1"
+  }
+}
